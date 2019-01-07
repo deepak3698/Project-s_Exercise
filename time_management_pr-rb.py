@@ -1,5 +1,5 @@
 from time import *
-# Health Management System
+# Health Management System By Ram Bhai
 client_list = {1: "Harry", 2: "Rohan", 3: "Hammad",4:"deepak"}
 lock_list = {1: "Exercise", 2: "Diet"}
 
