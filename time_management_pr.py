@@ -1,4 +1,4 @@
-# Health Management System
+# Health Management System by Deepak Tiwari
 # 3 clients - Harry, Rohan and Hammad
 from time import *
 
