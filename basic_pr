@@ -1,0 +1,73 @@
+
+
+######## palindrone number ka program #########
+
+# n=int(input("enter a number"))
+# u=n
+# sum=0
+# while(u!=0):
+#     r=u%10
+#     sum=int(str(sum)+str(r))
+#     u=u//10
+# print(sum)
+# if(n==sum):
+#     print("number is palindrome")
+#
+#
+# else:
+#     print("not ")
+
+
+########## Program for armstrome number ########
+
+n=int(input("enter a number"))
+u=n
+sum=0
+while(u!=0):
+    r=u%10
+    sum=sum+r**3
+    u=u//10
+
+
+if(n==sum):
+    print("number is armstrome ")
+else:
+    print("number is not a armstrome number")
+
+
+
+######## program for checking prime number #########
+
+
+# n=int(input("enter a number"))
+# for i in range(2,n+1):
+#     if(n%i==0):
+#         break
+# if(i==n):
+#     print("ha bhaiusfhk prime ")
+#
+# else:
+#     print("not prime")
+
+
+
+#######   prime  number for the specific number #########
+
+# n=int(input("enter a number"))
+# for i in range(2,n+1):
+#     for j in range(2,i+1):
+#         if(i%j==0):
+#             break
+#     if(j==i):
+#         print(i)
+
+
+
+
+#####  Reverse a string  ########
+
+# dt="i really like this"
+# a=dt[::-1]
+# print(a)
+
+
