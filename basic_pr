@@ -1,26 +1,34 @@
 
 
-######## palindrone number ka program #########
+######## Program for palindrome Number   #########
 
-# n=int(input("enter a number"))
+# n=int(input("Enter a number"))
 # u=n
 # sum=0
 # while(u!=0):
 #     r=u%10
 #     sum=int(str(sum)+str(r))
 #     u=u//10
-# print(sum)
 # if(n==sum):
-#     print("number is palindrome")
-#
-#
+#     print("Number is palindrome number")
 # else:
-#     print("not ")
+#     print("Number is not a palindrome number")
+
+######## Program for Reverse Number #########
+
+n=int(input("Enter a number"))
+u=n
+sum=0
+while(u!=0):
+    r=u%10
+    sum=int(str(sum)+str(r))
+    u=u//10
+print(f"Reverse of the number {n} is {sum}")
 
 
-########## Program for armstrome number ########
+########## Program for Armstrong Number ########
 
-n=int(input("enter a number"))
+n=int(input("Enter a number"))
 u=n
 sum=0
 while(u!=0):
@@ -30,13 +38,13 @@ while(u!=0):
 
 
 if(n==sum):
-    print("number is armstrome ")
+    print("Number is Armstrome ")
 else:
-    print("number is not a armstrome number")
+    print("Number is not a Armstrome number")
 
 
 
-######## program for checking prime number #########
+######## program for prime number (range type) #########
 
 
 # n=int(input("enter a number"))
@@ -51,7 +59,7 @@ else:
 
 
 
-#######   prime  number for the specific number #########
+#######   prime  number for a specific number #########
 
 # n=int(input("enter a number"))
 # for i in range(2,n+1):
@@ -64,7 +72,7 @@ else:
 
 
 
-#####  Reverse a string  ########
+#####  Program for Reverse a string  ########
 
 # dt="i really like this"
 # a=dt[::-1]
