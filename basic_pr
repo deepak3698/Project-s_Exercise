@@ -44,7 +44,7 @@ else:
 
 
 
-######## program for prime number (range type) #########
+######## prime  number for a specific number #########
 
 
 # n=int(input("enter a number"))
@@ -52,14 +52,13 @@ else:
 #     if(n%i==0):
 #         break
 # if(i==n):
-#     print("ha bhaiusfhk prime ")
+#     print(f"{n} is a prime number")
 #
 # else:
-#     print("not prime")
+#     print(f"{n} is not a prime number")
 
 
-
-#######   prime  number for a specific number #########
+#######    program for prime number (range type) #########
 
 # n=int(input("enter a number"))
 # for i in range(2,n+1):
