@@ -12,13 +12,13 @@ str="""
 set1= set(re.findall(r"[+91]+[-]+\d{10}", str))
 
 
-op=open("email_store.txt","a")
+op=open("phone_num.txt","a")
 
 j=1
 for i in set1:
-    op.write(f"Email{j}:{i}\n")
+    op.write(f"phone_num{j}:{i}\n")
     j=j+1
 op.close()
 
-print(f"Email's are:{set1}")
-print(f"Total Email's are:{j-1}")
+print(f"phone_number's are:{set1}")
+print(f"phone_number's are:{j-1}")
