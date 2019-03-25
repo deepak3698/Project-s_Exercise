@@ -1,0 +1,19 @@
+#### string to list
+
+
+a="hello my name is deepak"
+
+b=a.split(" ")
+
+print(type(b))
+
+print(f"List is {b}")
+
+######list to string with join
+
+b=["deepak","Anand","Shubham","Ashish"]
+
+
+a=" and ".join(b)
+
+print(f"{a} are the good Boys")
