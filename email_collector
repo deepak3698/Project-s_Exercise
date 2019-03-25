@@ -1,0 +1,29 @@
+import re
+
+
+
+str="""
+
+ddd@pt.com
+
+
+ss@jj.com
+
+
+ddd@pt.com
+
+
+"""
+set1= set(re.findall(r"[0-9a-zA-Z._+%]+@[0-9a-zA-Z._+%]+[.][a-zA-Z.0-9]+", str))
+
+
+op=open("email_store.txt","a")
+
+j=1
+for i in set1:
+    op.write(f"Email{j}:{i}\n")
+    j=j+1
+op.close()
+
+print(f"Email's are:{set1}")
+print(f"Total Email's are:{j-1}")
