@@ -1,0 +1,24 @@
+import re
+
+
+
+str="""
+
++91-2435654666 ghfh
+4253
++91456455
+
+"""
+set1= set(re.findall(r"[+91]+[-]+\d{10}", str))
+
+
+op=open("email_store.txt","a")
+
+j=1
+for i in set1:
+    op.write(f"Email{j}:{i}\n")
+    j=j+1
+op.close()
+
+print(f"Email's are:{set1}")
+print(f"Total Email's are:{j-1}")
